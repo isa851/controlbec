@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{ siteInfo.title }}</h1>
-    <p>{{ siteInfo.description }}</p>
-    <img src="{{ siteInfo.logo.url }}" alt="Logo">
-    <p>Phone: {{ siteInfo.phone_number }}</p>
+    <h1>название: {{ siteInfo.title }}</h1>
+    <p>Описание: {{ siteInfo.description }}</p>
+    <img src="{{ siteInfo.logo.url }}" alt="Logo" style="border-radius: 50%; width: 150px;;">
+    <p>Телефон: {{ siteInfo.phone_number }}</p>
     <p>Email: {{ siteInfo.email }}</p>
-    <p>Address: {{ siteInfo.address }}</p>
+    <p>Адрес: {{ siteInfo.address }}</p>
 </body>
 </html>
